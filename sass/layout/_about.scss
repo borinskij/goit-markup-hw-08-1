@@ -1,6 +1,6 @@
 .about {
     padding-bottom: 94px;
-
+        // padding-top: 94px;
 
 
 &__title {
@@ -40,7 +40,7 @@
     bottom: 0;
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1199.5px) {
             display: none;
         }
 

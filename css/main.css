@@ -242,7 +242,6 @@ address {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 100%;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -448,13 +447,13 @@ address {
 }
 
 .accent {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
   .accent {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .accent__card {
@@ -492,7 +491,7 @@ address {
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .accent__box {
     width: 100%;
     text-align: center;
@@ -509,12 +508,32 @@ address {
   padding-top: 30px;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .accent__title {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .accent__title {
+    text-align: start;
+  }
+}
 .accent__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   box-sizing: border-box;
   text-align: justify;
+}
+@media screen and (min-width: 768px) {
+  .accent__text {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .accent__text {
+    text-align: start;
+  }
 }
 
 .about {
@@ -556,7 +575,7 @@ address {
   padding: 27px;
   bottom: 0;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.5px) {
   .about {
     display: none;
   }
@@ -566,6 +585,12 @@ address {
   padding-top: 60px;
   background: #f5f4fa;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 .team .container {
   margin: auto;
@@ -586,6 +611,11 @@ address {
 @media screen and (min-width: 1200px) {
   .team__title-top {
     font-size: 36px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
+  .team__title-top {
+    margin-bottom: 50px;
   }
 }
 .team__card {
@@ -674,6 +704,12 @@ address {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .klient {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 .klient__title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -685,6 +721,7 @@ address {
 @media screen and (min-width: 1200px) {
   .klient__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 .klient__compani {
@@ -904,7 +941,7 @@ address {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding-top: 60px;
   justify-content: flex-start;
 }
@@ -917,6 +954,7 @@ address {
   .portfolio__list {
     justify-content: center;
     padding-top: 94px;
+    margin-bottom: 6 0px;
   }
 }
 

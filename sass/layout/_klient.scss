@@ -1,7 +1,10 @@
 .klient {
     padding-top: 60px;
     padding-bottom: 60px;
-
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+            padding-bottom: 94px;
+        }
 // & .container{
 // @media screen and (min-width: 480px) {
 //     max-width: 480px;
@@ -16,6 +19,7 @@
         letter-spacing: 0.03em;
         @media screen and (min-width: 1200px) {
                 font-size: 36px;
+                margin-bottom: 50px;
     }
 }
     &__compani {
