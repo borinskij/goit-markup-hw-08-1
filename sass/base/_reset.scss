@@ -1,0 +1,45 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+ 
+address {
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+@import './utils/variables';
+@import './base/reset';
+@import './components/container';
+@import './utils/mixins';
+@import './components/logo';
+@import './components/burger';
+
+
+@import './layout/heder';
+@import './layout/hero';
+@import './layout/accent';
+@import './layout/about';
+@import './layout/team';
+@import './layout/klient';
+@import './layout/footer';
+
+@import './layout/portfolio';
+
+@import './components/modal';
