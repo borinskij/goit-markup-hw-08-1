@@ -35,18 +35,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding-top: 60px;
     justify-content: flex-start;
 
     @media screen and (min-width: 768px) {
       justify-content: center;
+    margin-bottom: 30px;
     }
 
     @media screen and (min-width: 1200px) {
       justify-content: center;
       padding-top: 94px;
-          margin-bottom: 6 0px;
+          margin-bottom: 50px;
     }
   }
 }

@@ -714,7 +714,7 @@ address {
 .klient__title {
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -729,7 +729,12 @@ address {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .klient__compani {
+    margin-top: 50px;
+  }
 }
 .klient__list {
   display: flex;
@@ -942,20 +947,21 @@ address {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding-top: 60px;
   justify-content: flex-start;
 }
 @media screen and (min-width: 768px) {
   .portfolio__list {
     justify-content: center;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__list {
     justify-content: center;
     padding-top: 94px;
-    margin-bottom: 6 0px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1103,7 +1109,7 @@ address {
   margin-bottom: 12px;
   color: #212121;
 }
-.modal_label span, .modal__koment span {
+.modal__text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -1128,6 +1134,7 @@ address {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 .modal__wrap {
   position: relative;
@@ -1151,6 +1158,7 @@ address {
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 .modal__input:hover, .modal__koment-text:hover {
   border-color: var(--accent-text-color);
