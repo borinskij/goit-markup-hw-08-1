@@ -350,6 +350,7 @@ address {
   border-radius: 2px;
   bottom: 0;
   left: 0%;
+  transform: translateY(10px);
 }
 .header__link:hover .header__icon, .header__link:focus .header__icon {
   fill: var(--accent-text-color);

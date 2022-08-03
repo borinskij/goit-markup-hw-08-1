@@ -115,6 +115,7 @@
     border-radius: 2px;
     bottom: 0;
     left: 0%;
+    transform: translateY(10px);
   }
   &__link:hover &__icon,
   &__link:focus &__icon {
