@@ -263,7 +263,7 @@ address {
   margin-left: auto;
   align-items: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
   .header__list {
     display: none;
   }
@@ -462,7 +462,7 @@ address {
   justify-content: space-between;
   gap: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
   .accent__card {
     width: 100%;
     text-align: center;
@@ -660,7 +660,7 @@ address {
   gap: 30px;
   padding: 0px;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.5px) {
   .team__list {
     width: 100%;
   }
@@ -893,7 +893,7 @@ address {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199.5px) {
   .footer__online {
     width: 450px;
   }
